@@ -7,7 +7,7 @@ def main():
 
     str_programming = original_str.find('Programming')
 
-    sub1 = original_str[:str_programming]
+    sub1 = original_str[:str_programming -1]
     sub2 = original_str[str_programming:]
     merged_str = sub2 + ' ' + sub1
 
