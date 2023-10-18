@@ -5,6 +5,12 @@ def main():
     # Comlete your code here
     ##################################################
 
+    str_programming = original_str.find('Programming')
+
+    sub1 = original_str[:str_programming]
+    sub2 = original_str[str_programming:]
+    merged_str = sub2 + ' ' + sub1
+
     print(sub2)
     print(sub1)
     print(merged_str)
